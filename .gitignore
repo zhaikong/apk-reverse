@@ -44,7 +44,6 @@ tools/
 __pycache__/
 *.pyc
 .venv/
-.vscode/
 .idea/
 .DS_Store
 
@@ -52,3 +51,5 @@ __pycache__/
 # are the user's material, not content of this repository
 新的建议和思路/
 朋友全面审查和建议/
+config.bat
+node_modules

@@ -38,6 +38,11 @@ NOTES
     syntactically valid but leaves the decision (and the fix) to a human. It never
     runs unless --apply is also given.
 """
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import fnmatch
 import os
