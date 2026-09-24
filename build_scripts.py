@@ -38,6 +38,8 @@ NOTES
     syntactically valid but leaves the decision (and the fix) to a human. It never
     runs unless --apply is also given.
 """
+import utils.transport
+import utils.session
 import argparse
 import fnmatch
 import os
